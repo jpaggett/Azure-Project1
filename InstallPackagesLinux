@@ -1,0 +1,13 @@
+#Bash Script to run in an Azure VM to install a Python3 Package, a Curl Package, as well as a Git Package
+
+# Update package list first
+sudo apt-get update
+
+# Install Git
+sudo apt-get install -y git
+
+# Install Curl
+sudo apt-get install -y curl
+
+# Install Python
+sudo apt-get install -y python3
